@@ -1,0 +1,283 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 43번째 줄까지 초기화코드.*/
+
+*{padding:0;margin:0;}
+
+
+.bar{
+    float:left;
+}
+.leftbar{
+    float:left;
+    height:160px;
+    width:5px;
+}
+
+.wrap{
+    overflow:hidden;
+}
+.left{
+    float:left;background:#121212;
+    opacity: 0.95;
+    width:350px;
+    height:8083px;
+    position: fixed;
+}
+
+.left hr{
+    color:#C9C9C9;
+    border-color:#C9C9C9;
+    background-color:#C9C9C9;
+    width:200px;
+}
+.left h2{
+    font-family:'Noto Sans KR';
+    color:white;
+    font-size: 35px;
+    padding-top:140px; padding-left:40px;
+    text-shadow: 2px 2px 1px #545454;
+}
+.left h3{
+    font-family:'Noto Sans KR';
+    color:white;
+    font-size: 25px;
+    padding-top:100px; padding-left:90px;
+    line-height:250%;
+
+
+    
+    
+}
+.left a{
+    color:white;text-decoration:none;
+}
+.left a:hover{
+    color:orange;
+}
+
+
+
+
+.right{
+    float: left;
+    width:100%;
+    margin-right: -350px;
+    padding-left:350px;
+}
+.contents{
+    background:black;
+    background:url(images/텐진.jpg);
+    height:1024px;
+    margin-right:300px;
+}
+.contents .profile{
+    padding-left:660px;
+    padding-top:240px;
+}
+.contents h1{
+    font-family:'Noto Sans KR';
+    font-weight: 400;
+    font-size: 34px;
+    padding-left:630px;
+    color:#E4E4E4; 
+    text-shadow: 5px 5px 3px black;
+}
+
+
+
+.about{
+    background:#3D3D3D;
+    background:url(images/about_bg.jpg);
+    background-size: 1920px 1040px;
+    height:1024px;    
+}
+.about_bar{
+    float:left;
+}
+.about_profile{
+    height:450px;
+    width:290px;
+    border:10px solid white;
+    border-radius: 5%;
+    margin-left:170px; margin-top:200px;
+    float:left;
+}
+.about_me{
+    position: relative;
+    overflow: hidden;
+    left:-50px;
+    font-size: 70px;
+    font-family:'Noto Sans KR';
+    font-weight: 700;
+    color:white;
+    padding-top:60px;
+    letter-spacing: 8px;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 10px 4px 5px black;
+}
+.A{
+    margin-left:3px;
+    font-size:190px;
+    font-weight: 600;
+    color:orange;   
+    
+}
+.dot{
+    color:orange;
+    font-size:100px;
+}
+.about hr{
+    width:700px;
+    white-space: nowrap;
+}
+.about_contents{
+    font-size: 20px;
+    font-family:'Noto Sans KR';
+    font-weight: 300;
+    color:white;
+    padding-top:20px;
+    margin-left:500px;
+    margin-right:500px;
+    width:850px;
+}
+
+.about_tool h3{
+    font-size:20px;
+    color:white;
+    font-family:'Noto Sans KR';
+    font-weight: 500;
+    padding-left:600px;
+    padding-top:70px;    
+}
+.word{
+    padding-left:240px;
+}
+.word1{
+    padding-left:95px;
+}
+
+
+.portfolio{
+    background:#3D3D3D;
+    background:url(images/contact.jpg);
+    width:100%;
+    height:1024px;
+}
+.portfolio_innerbox{
+    margin-left:140px;
+    padding-top:30px;
+}
+.portfolio_innerbox h2{
+    color:white;
+    font-size: 40px;
+}
+.portfolio_list{
+    width:600px;
+    overflow: hidden;
+    float:left;
+}
+.portfolio_item1{
+    width:420px;
+    height:auto;
+    border:2px solid white;
+}
+.portfolio_item2{
+    background:rgb(248, 247, 247);
+    width:700px;
+    height:110px;
+    border:4px solid black;
+    margin-left:600px;
+    margin-top:230px;   
+}
+.portfolio_github{
+    width:200px;
+    height:110px;
+    margin:0;
+    padding:0;
+    float:left;
+}
+.portfolio_item2 h2{
+    color:black;
+    font-size:22px;
+    padding-top:10px;
+}
+.github_address{
+    color:rgb(27, 56, 35);text-decoration:none;
+}
+.github_address:hover{
+    color:rgb(255, 139, 139);
+}
+
+.contact{
+    background:white;
+    width:100%;
+    height:604px;
+}
+.contact h1{
+    
+    color:black;
+    padding-top:100px;
+    padding-left:200px;
+    font-size:40px;
+}
+.contact h4{
+    font-family:'Nanum Gothic';
+    padding-left:210px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.contact h3{
+    padding-left:150px;
+    padding-top:70px;
+    font-size:30px;
+}
+.contact h2{
+    padding-left:150px;
+    padding-top:20px;
+    line-height:170%;
+    font-weight : 100;
+    font-size: 22px;
+}
+
